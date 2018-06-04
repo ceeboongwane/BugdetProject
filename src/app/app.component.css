@@ -1,0 +1,23 @@
+h1 {
+    font-style: italic;
+    text-align: center;
+    font-size: 32px;   
+}
+table{
+    width: 100%;
+    border: 1px;  
+    
+}
+
+td {
+    text-align: left;
+}
+input{
+    background-color: aqua;
+}
+tr:nth-child(even){
+    background-color: lightgray;
+}
+p{
+    font-weight: bold;
+}

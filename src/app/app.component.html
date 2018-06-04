@@ -1,0 +1,36 @@
+<h1 >
+  My Budget
+</h1>
+<p>
+  Income : R<input #income placeholder="income">
+</p>
+<table >
+  <tr>
+    <th>Item</th>
+    <th>Amount</th>
+  </tr>
+  <tr>
+    <td>Airtime</td>
+    <td><input #water placeholder="Airtime"></td>
+  </tr>
+  <tr>
+    <td>Transport</td>
+    <td><input #toiletries placeholder="Transport"></td>
+  </tr>
+  <tr>
+    <td>Transport</td>
+    <td><input #trans placeholder="Transport"></td>
+  </tr>
+  <tr>
+    <td>food</td>
+    <td><input #food placeholder="food"></td>
+  </tr>
+  <tr>
+    <td>Drinks :</td>
+    <td><input #drinks placeholder="Drinks"></td>
+  </tr> 
+</table>
+
+<p>
+    <button (click)="calculate(income.value,drinks.value,water.value,trans.value,toiletries.value,food.value)">Change</button>   
+</p>
